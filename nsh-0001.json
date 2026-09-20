@@ -1,0 +1,121 @@
+{
+  "player_id": "nsh-0001",
+  "portal_token": "a8c171446e8b1b656e3510ec0e1e162f",
+  "status": "example",
+  "profile": {
+    "name": "Sample Player",
+    "grad_year": 2029,
+    "position": "C",
+    "shot": "L",
+    "height": "5'9\"",
+    "weight": "158",
+    "team": "Sample AAA 16U",
+    "league": "E9",
+    "school": "Sample High School",
+    "tier": "performance",
+    "parent_name": "Sample Parent",
+    "parent_email": "parent@example.com"
+  },
+  "scoring_events": [
+    {
+      "window": "2026-10",
+      "label": "October baseline",
+      "scorer_id": "jh",
+      "scored_on": "2026-10-08",
+      "source": "film",
+      "games_viewed": 3,
+      "metrics": {
+        "first_three_steps": 3,
+        "edges_agility": 3,
+        "pace_of_play": 2,
+        "puck_protection": 3,
+        "handling_traffic": 2,
+        "scanning": 2,
+        "distribution": 3,
+        "play_recognition": 3,
+        "gap_angling": "NS",
+        "stick_retrievals": 3,
+        "puck_battles": 4,
+        "hard_areas": 3
+      },
+      "evidence": {
+        "pace_of_play": "Second half of shifts, consistently arrives to the puck a stride late. Three shifts over 55 seconds in game two.",
+        "scanning": "No shoulder check on 11 of 14 tracked receptions in the defensive zone.",
+        "gap_angling": "Not scored \u2014 played wing in all three games viewed, no rush defending sample."
+      }
+    },
+    {
+      "window": "2027-02",
+      "label": "February re-score",
+      "scorer_id": "jh",
+      "scored_on": "2027-02-11",
+      "source": "film",
+      "games_viewed": 3,
+      "metrics": {
+        "first_three_steps": 3,
+        "edges_agility": 4,
+        "pace_of_play": 3,
+        "puck_protection": 4,
+        "handling_traffic": 3,
+        "scanning": 4,
+        "distribution": 3,
+        "play_recognition": 3,
+        "gap_angling": "NS",
+        "stick_retrievals": 3,
+        "puck_battles": 4,
+        "hard_areas": 4
+      },
+      "evidence": {
+        "scanning": "Pre-scan on 12 of 15 tracked defensive-zone receptions. Largest single movement in the file.",
+        "hard_areas": "Four inside-dot shot attempts per game, up from 1.3 at baseline.",
+        "gap_angling": "Not scored again \u2014 still no rush defending sample in the three games viewed."
+      }
+    }
+  ],
+  "idp": {
+    "block_start": "2026-10-14",
+    "block_end": "2027-01-06",
+    "objectives": [
+      "Scan before every defensive-zone retrieval and identify the first option before the puck arrives.",
+      "Extend shift pace \u2014 hold the same speed in the last 15 seconds as the first 15.",
+      "Generate inside-ice attempts instead of perimeter shots."
+    ]
+  },
+  "weekly": {
+    "week_of": "2026-10-14",
+    "hockey_objective": "Scan before every retrieval. Identify the first option before touching the puck.",
+    "practice_challenge": "Track 10 retrievals. Log how many you scanned before.",
+    "game_kpi": "First-play exits at or above 70%.",
+    "video_assignment": "Watch the six clips in the film room. For each: where was the pressure, what support was available, what was the best first option?",
+    "off_ice": "Prescribed acceleration work, two sessions.",
+    "academic": "Schoolwork finished before Thursday travel."
+  },
+  "video": [
+    {
+      "date": "2026-10-09",
+      "title": "Baseline film review \u2014 defensive zone retrievals",
+      "url": "",
+      "tags": [
+        "scanning",
+        "stick_retrievals"
+      ]
+    }
+  ],
+  "pathway": [
+    {
+      "program": "Example Prep School",
+      "level": "Prep",
+      "contact": "Head Coach",
+      "interest": "Researching",
+      "last_contact": "",
+      "next_action": "Send October film after baseline is published"
+    }
+  ],
+  "reports": [
+    {
+      "month": "2026-10",
+      "title": "October development report",
+      "url": ""
+    }
+  ]
+}

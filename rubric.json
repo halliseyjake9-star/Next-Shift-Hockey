@@ -1,0 +1,149 @@
+{
+  "version": "1.0",
+  "scale": { "min": 1, "max": 5, "not_scored": "NS" },
+  "evidence_required_at": [1, 5],
+  "calibration": {
+    "max_scorer_spread": 1,
+    "note": "Two scorers on the same player in the same window may differ by at most 1 on any metric. Anything wider means the anchor is ambiguous — rewrite the anchor, do not average the scores."
+  },
+  "categories": [
+    {
+      "id": "skating_pace",
+      "name": "Skating & Pace",
+      "metrics": [
+        {
+          "id": "first_three_steps",
+          "name": "First three steps",
+          "anchors": {
+            "1": "Loses every race off the line. Gets beaten to loose pucks inside 10 feet.",
+            "3": "Wins some races. Acceleration is adequate at current level, exposed a level up.",
+            "5": "Separates from checkers on the first push. Wins contested pucks through acceleration alone."
+          }
+        },
+        {
+          "id": "edges_agility",
+          "name": "Edges and agility",
+          "anchors": {
+            "1": "Turns wide, glides through changes of direction, falls off edges under contact.",
+            "3": "Functional edges. Tight turns available but not used under pressure.",
+            "5": "Changes direction without losing speed. Holds edges through contact in traffic."
+          }
+        },
+        {
+          "id": "pace_of_play",
+          "name": "Pace of play",
+          "anchors": {
+            "1": "Plays a step behind. Receives pucks stopped, exits shifts late.",
+            "3": "Matches game pace in stretches, drops off late in shifts.",
+            "5": "Plays faster than the game around them. Forces opponents into rushed decisions."
+          }
+        }
+      ]
+    },
+    {
+      "id": "possession",
+      "name": "Possession",
+      "metrics": [
+        {
+          "id": "puck_protection",
+          "name": "Puck protection",
+          "anchors": {
+            "1": "Loses the puck on first contact. Faces pressure directly.",
+            "3": "Protects along the wall. Struggles when pressured from two sides.",
+            "5": "Uses body, angles and leverage to hold pucks under real pressure and still make a play."
+          }
+        },
+        {
+          "id": "handling_traffic",
+          "name": "Handling in traffic",
+          "anchors": {
+            "1": "Head down through the middle. Puck gets stripped in crowded ice.",
+            "3": "Comfortable in open ice, simplifies in traffic.",
+            "5": "Manipulates sticks and bodies in tight. Creates ice where there was none."
+          }
+        }
+      ]
+    },
+    {
+      "id": "decisions",
+      "name": "Decisions",
+      "metrics": [
+        {
+          "id": "scanning",
+          "name": "Scanning before the puck",
+          "anchors": {
+            "1": "No shoulder checks. Discovers pressure after receiving.",
+            "3": "Scans on the rush, stops scanning under forecheck.",
+            "5": "Consistent pre-scan. Knows the first option before the puck arrives."
+          }
+        },
+        {
+          "id": "distribution",
+          "name": "Puck distribution",
+          "anchors": {
+            "1": "Forces low-percentage plays or defaults to rimming it out.",
+            "3": "Makes the available pass. Rarely makes the better one.",
+            "5": "Finds the second and third option. Passes to the correct side of the stick."
+          }
+        },
+        {
+          "id": "play_recognition",
+          "name": "Play recognition",
+          "anchors": {
+            "1": "Reacts to plays after they develop. Frequently out of position.",
+            "3": "Reads standard situations, late on broken plays.",
+            "5": "Anticipates. Arrives where the puck is going without being sent there."
+          }
+        }
+      ]
+    },
+    {
+      "id": "defending",
+      "name": "Defending",
+      "metrics": [
+        {
+          "id": "gap_angling",
+          "name": "Gap and angling",
+          "anchors": {
+            "1": "Gaps off, gives up the blue line, angles attackers to the middle.",
+            "3": "Maintains gap on the rush, loses it on delays and regroups.",
+            "5": "Kills speed early. Angles attackers to the wall every time."
+          }
+        },
+        {
+          "id": "stick_retrievals",
+          "name": "Stick detail and retrievals",
+          "anchors": {
+            "1": "Stick in the air or on the wrong side. Retrievals become turnovers.",
+            "3": "Active stick in lanes. Retrievals are safe but slow.",
+            "5": "Stick takes away the intended play. Retrieves under forecheck and exits clean."
+          }
+        }
+      ]
+    },
+    {
+      "id": "competitiveness",
+      "name": "Competitiveness",
+      "metrics": [
+        {
+          "id": "puck_battles",
+          "name": "Puck battles",
+          "anchors": {
+            "1": "Avoids contested pucks. Arrives second and stops.",
+            "3": "Competes when the battle is even, disengages when it isn't.",
+            "5": "Wins battles against bigger players through leverage and second effort."
+          }
+        },
+        {
+          "id": "hard_areas",
+          "name": "Net front and hard areas",
+          "anchors": {
+            "1": "Plays the perimeter. No inside presence on either end.",
+            "3": "Goes to the net when the play sends them there.",
+            "5": "Lives inside the dots. Takes contact to hold ice in front."
+          }
+        }
+      ]
+    }
+  ]
+}

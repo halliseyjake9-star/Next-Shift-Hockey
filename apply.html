@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apply — Next Shift Hockey</title>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="mark" href="index.html">Next Shift<span>.</span></a>
+    <nav>
+      <a href="index.html">How it works</a>
+      <a href="pricing.html">Programs</a>
+      <a href="apply.html">Apply</a>
+    </nav>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2>Apply</h2>
+    <p>We take a call before anyone pays. If the fit isn't right, we'll say so on that call. Expect a reply within two business days.</p>
+
+    <!-- Replace ACTION_URL with your Formspree / Tally / Basin endpoint. -->
+    <form action="ACTION_URL" method="POST">
+      <label for="parent">Parent or guardian name</label>
+      <input id="parent" name="parent_name" required>
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required>
+
+      <label for="phone">Phone</label>
+      <input id="phone" name="phone" type="tel">
+
+      <label for="player">Player name</label>
+      <input id="player" name="player_name" required>
+
+      <label for="grad">Graduation year</label>
+      <input id="grad" name="grad_year" inputmode="numeric" required>
+
+      <label for="team">Current team and league</label>
+      <input id="team" name="team" required>
+
+      <label for="position">Position</label>
+      <select id="position" name="position">
+        <option>Forward</option>
+        <option>Defense</option>
+        <option>Goalie</option>
+      </select>
+
+      <label for="tier">Program you're considering</label>
+      <select id="tier" name="tier">
+        <option>Not sure yet</option>
+        <option>Foundation — $149/mo</option>
+        <option>Performance — $299/mo</option>
+        <option>Elite — $599/mo</option>
+        <option>Standalone evaluation — $249</option>
+      </select>
+
+      <label for="goal">What are you hoping happens in the next two years?</label>
+      <textarea id="goal" name="goal" required></textarea>
+
+      <label for="film">Link to game film, if you have it</label>
+      <input id="film" name="film_url" type="url" placeholder="https://">
+
+      <div class="actions">
+        <button class="btn" type="submit">Send application</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Next Shift Hockey — Newton, Massachusetts.</p>
+  </div>
+</footer>
+
+</body>
+</html>
